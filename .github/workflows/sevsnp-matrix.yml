@@ -1,0 +1,23 @@
+name: sevsnp-matrix
+on:
+  workflow_dispatch:
+  push:
+    branches: [sevsnp-matrix]
+permissions:
+  contents: read
+jobs:
+  matrix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+      - name: Run the matrix
+        run: sevsnp-matrix/matrix.sh "$RUNNER_TEMP/matrix.txt"
+      - name: Render it into the job summary
+        run: python3 sevsnp-matrix/render.py "$RUNNER_TEMP/matrix.txt" | tee "$RUNNER_TEMP/matrix.md" >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: sevsnp-matrix
+          path: ${{ runner.temp }}/matrix.*

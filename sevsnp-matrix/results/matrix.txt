@@ -1,0 +1,70 @@
+MX|main|v0.14.2-0.20251119154202-af1c107a648f|upstream's own sample: Genoa VCEK, PEM table, ratsd token|ok: ARK-Genoa|ok|0
+MX|main|v0.14.2-0.20251119154202-af1c107a648f|GCP Milan VCEK, the host's table (VCEK+ASK+ARK, DER)|FAIL: can't read ARK to compose TA ID: failed to read certificate|FAIL: evidence Trust Anchor (ARK) doesn't match the provisioned one|0
+MX|main|v0.14.2-0.20251119154202-af1c107a648f|GCP Milan VCEK, a host's table with the VCEK alone|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|main|v0.14.2-0.20251119154202-af1c107a648f|AWS Milan VLEK, the host's table (VLEK alone)|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|main|v0.14.2-0.20251119154202-af1c107a648f|AWS Milan VLEK, the guest appended ASVK+ARK|FAIL: can't read ARK to compose TA ID: failed to read certificate|FAIL: evidence Trust Anchor (ARK) doesn't match the provisioned one|0
+MX|main|v0.14.2-0.20251119154202-af1c107a648f|GCP VCEK alone, then AWS VLEK alone in the same process: the VCEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|main|v0.14.2-0.20251119154202-af1c107a648f|GCP VCEK alone, then AWS VLEK alone in the same process: the VLEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|main|v0.15.0|upstream's own sample: Genoa VCEK, PEM table, ratsd token|ok: ARK-Genoa|ok|0
+MX|main|v0.15.0|GCP Milan VCEK, the host's table (VCEK+ASK+ARK, DER)|FAIL: can't read ARK to compose TA ID: failed to read certificate|FAIL: evidence Trust Anchor (ARK) doesn't match the provisioned one|0
+MX|main|v0.15.0|GCP Milan VCEK, a host's table with the VCEK alone|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|main|v0.15.0|AWS Milan VLEK, the host's table (VLEK alone)|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|main|v0.15.0|AWS Milan VLEK, the guest appended ASVK+ARK|FAIL: can't read ARK to compose TA ID: failed to read certificate|FAIL: evidence Trust Anchor (ARK) doesn't match the provisioned one|0
+MX|main|v0.15.0|GCP VCEK alone, then AWS VLEK alone in the same process: the VCEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|main|v0.15.0|GCP VCEK alone, then AWS VLEK alone in the same process: the VLEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|flag|v0.14.2-0.20251119154202-af1c107a648f|upstream's own sample: Genoa VCEK, PEM table, ratsd token|ok: ARK-Genoa|ok|0
+MX|flag|v0.14.2-0.20251119154202-af1c107a648f|GCP Milan VCEK, the host's table (VCEK+ASK+ARK, DER)|FAIL: can't read ARK to compose TA ID: failed to read certificate|FAIL: evidence Trust Anchor (ARK) doesn't match the provisioned one|0
+MX|flag|v0.14.2-0.20251119154202-af1c107a648f|GCP Milan VCEK, a host's table with the VCEK alone|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|flag|v0.14.2-0.20251119154202-af1c107a648f|AWS Milan VLEK, the host's table (VLEK alone)|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|flag|v0.14.2-0.20251119154202-af1c107a648f|AWS Milan VLEK, the guest appended ASVK+ARK|FAIL: can't read ARK to compose TA ID: failed to read certificate|FAIL: evidence Trust Anchor (ARK) doesn't match the provisioned one|0
+MX|flag|v0.14.2-0.20251119154202-af1c107a648f|GCP VCEK alone, then AWS VLEK alone in the same process: the VCEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|flag|v0.14.2-0.20251119154202-af1c107a648f|GCP VCEK alone, then AWS VLEK alone in the same process: the VLEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|flag|v0.15.0|upstream's own sample: Genoa VCEK, PEM table, ratsd token|ok: ARK-Genoa|ok|0
+MX|flag|v0.15.0|GCP Milan VCEK, the host's table (VCEK+ASK+ARK, DER)|FAIL: can't read ARK to compose TA ID: failed to read certificate|FAIL: evidence Trust Anchor (ARK) doesn't match the provisioned one|0
+MX|flag|v0.15.0|GCP Milan VCEK, a host's table with the VCEK alone|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|flag|v0.15.0|AWS Milan VLEK, the host's table (VLEK alone)|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|flag|v0.15.0|AWS Milan VLEK, the guest appended ASVK+ARK|FAIL: can't read ARK to compose TA ID: failed to read certificate|FAIL: evidence Trust Anchor (ARK) doesn't match the provisioned one|0
+MX|flag|v0.15.0|GCP VCEK alone, then AWS VLEK alone in the same process: the VCEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|flag|v0.15.0|GCP VCEK alone, then AWS VLEK alone in the same process: the VLEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|der|v0.14.2-0.20251119154202-af1c107a648f|upstream's own sample: Genoa VCEK, PEM table, ratsd token|ok: ARK-Genoa|ok|0
+MX|der|v0.14.2-0.20251119154202-af1c107a648f|GCP Milan VCEK, the host's table (VCEK+ASK+ARK, DER)|ok: ARK-Milan|ok|0
+MX|der|v0.14.2-0.20251119154202-af1c107a648f|GCP Milan VCEK, a host's table with the VCEK alone|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|der|v0.14.2-0.20251119154202-af1c107a648f|AWS Milan VLEK, the host's table (VLEK alone)|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|der|v0.14.2-0.20251119154202-af1c107a648f|AWS Milan VLEK, the guest appended ASVK+ARK|ok: ARK-Milan|ok|0
+MX|der|v0.14.2-0.20251119154202-af1c107a648f|GCP VCEK alone, then AWS VLEK alone in the same process: the VCEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|der|v0.14.2-0.20251119154202-af1c107a648f|GCP VCEK alone, then AWS VLEK alone in the same process: the VLEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|der|v0.15.0|upstream's own sample: Genoa VCEK, PEM table, ratsd token|ok: ARK-Genoa|ok|0
+MX|der|v0.15.0|GCP Milan VCEK, the host's table (VCEK+ASK+ARK, DER)|ok: ARK-Milan|ok|0
+MX|der|v0.15.0|GCP Milan VCEK, a host's table with the VCEK alone|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|der|v0.15.0|AWS Milan VLEK, the host's table (VLEK alone)|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|der|v0.15.0|AWS Milan VLEK, the guest appended ASVK+ARK|ok: ARK-Milan|FAIL: VLEK could not be verified by any trusted roots. Last error: root of trust missing interme…|0
+MX|der|v0.15.0|GCP VCEK alone, then AWS VLEK alone in the same process: the VCEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|der|v0.15.0|GCP VCEK alone, then AWS VLEK alone in the same process: the VLEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|derflag|v0.14.2-0.20251119154202-af1c107a648f|upstream's own sample: Genoa VCEK, PEM table, ratsd token|ok: ARK-Genoa|ok|0
+MX|derflag|v0.14.2-0.20251119154202-af1c107a648f|GCP Milan VCEK, the host's table (VCEK+ASK+ARK, DER)|ok: ARK-Milan|ok|0
+MX|derflag|v0.14.2-0.20251119154202-af1c107a648f|GCP Milan VCEK, a host's table with the VCEK alone|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|derflag|v0.14.2-0.20251119154202-af1c107a648f|AWS Milan VLEK, the host's table (VLEK alone)|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|derflag|v0.14.2-0.20251119154202-af1c107a648f|AWS Milan VLEK, the guest appended ASVK+ARK|ok: ARK-Milan|ok|0
+MX|derflag|v0.14.2-0.20251119154202-af1c107a648f|GCP VCEK alone, then AWS VLEK alone in the same process: the VCEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|derflag|v0.14.2-0.20251119154202-af1c107a648f|GCP VCEK alone, then AWS VLEK alone in the same process: the VLEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|derflag|v0.15.0|upstream's own sample: Genoa VCEK, PEM table, ratsd token|ok: ARK-Genoa|ok|0
+MX|derflag|v0.15.0|GCP Milan VCEK, the host's table (VCEK+ASK+ARK, DER)|ok: ARK-Milan|ok|0
+MX|derflag|v0.15.0|GCP Milan VCEK, a host's table with the VCEK alone|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|derflag|v0.15.0|AWS Milan VLEK, the host's table (VLEK alone)|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|derflag|v0.15.0|AWS Milan VLEK, the guest appended ASVK+ARK|ok: ARK-Milan|FAIL: VLEK could not be verified by any trusted roots. Last error: root of trust missing interme…|0
+MX|derflag|v0.15.0|GCP VCEK alone, then AWS VLEK alone in the same process: the VCEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|derflag|v0.15.0|GCP VCEK alone, then AWS VLEK alone in the same process: the VLEK|FAIL: can't read ARK to compose TA ID: empty certificate|FAIL: missing ARK certificate in evidence|0
+MX|roots|v0.14.2-0.20251119154202-af1c107a648f|upstream's own sample: Genoa VCEK, PEM table, ratsd token|ok: ARK-Genoa|ok|0
+MX|roots|v0.14.2-0.20251119154202-af1c107a648f|GCP Milan VCEK, the host's table (VCEK+ASK+ARK, DER)|ok: ARK-Milan|ok|0
+MX|roots|v0.14.2-0.20251119154202-af1c107a648f|GCP Milan VCEK, a host's table with the VCEK alone|ok: ARK-Milan|ok|0
+MX|roots|v0.14.2-0.20251119154202-af1c107a648f|AWS Milan VLEK, the host's table (VLEK alone)|ok: ARK-Milan|ok|0
+MX|roots|v0.14.2-0.20251119154202-af1c107a648f|AWS Milan VLEK, the guest appended ASVK+ARK|ok: ARK-Milan|ok|0
+MX|roots|v0.14.2-0.20251119154202-af1c107a648f|GCP VCEK alone, then AWS VLEK alone in the same process: the VCEK|ok: ARK-Milan|ok|0
+MX|roots|v0.14.2-0.20251119154202-af1c107a648f|GCP VCEK alone, then AWS VLEK alone in the same process: the VLEK|ok: ARK-Milan|ok|0
+MX|roots|v0.15.0|upstream's own sample: Genoa VCEK, PEM table, ratsd token|ok: ARK-Genoa|ok|0
+MX|roots|v0.15.0|GCP Milan VCEK, the host's table (VCEK+ASK+ARK, DER)|ok: ARK-Milan|ok|0
+MX|roots|v0.15.0|GCP Milan VCEK, a host's table with the VCEK alone|ok: ARK-Milan|ok|0
+MX|roots|v0.15.0|AWS Milan VLEK, the host's table (VLEK alone)|ok: ARK-Milan|ok|0
+MX|roots|v0.15.0|AWS Milan VLEK, the guest appended ASVK+ARK|ok: ARK-Milan|ok|0
+MX|roots|v0.15.0|GCP VCEK alone, then AWS VLEK alone in the same process: the VCEK|ok: ARK-Milan|ok|0
+MX|roots|v0.15.0|GCP VCEK alone, then AWS VLEK alone in the same process: the VLEK|ok: ARK-Milan|ok|0
