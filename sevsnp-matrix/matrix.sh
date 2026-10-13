@@ -11,7 +11,7 @@ DER=283df9a74e86f2b6126b96c321b65d19f6ff10b0    # the head of #488
 ROOTS=d73ae831e16faaa5ffb30a64d73551efe90218b4  # the head of #490
 mkdir -p "$(dirname "$OUT")"; : > "$OUT"
 git fetch -q https://github.com/veraison/services.git "$MAIN"
-git fetch -q "$FORK" sevsnp-der-cert-table sevsnp-amd-roots
+git fetch -q "$FORK" matrix-20261012-der matrix-20261012-roots   # tags: the heads of #488 and #490 as they were on 12 October
 for v in "main:$MAIN:" "flag:$MAIN:flag" "der:$DER:" "derflag:$DER:flag" "roots:$ROOTS:"; do
   IFS=: read -r name sha flag <<< "$v"
   d="$WORK/$name"
